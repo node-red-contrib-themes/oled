@@ -1,4 +1,4 @@
-# Solarized Dark Node-RED theme
+# OLED Node-RED theme
 
 ![Project Maintenance][maintenance-shield]
 [![License][license-shield]](LICENSE)
