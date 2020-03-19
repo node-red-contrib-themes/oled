@@ -746,11 +746,11 @@
 }
 
 .red-ui-flow-link-background {
-  stroke: var(--OLED-Base2);
+  stroke: var(--OLED-Base1);
 }
 
 .red-ui-flow-link-outline {
-  stroke: var(--OLED-Base2);
+  stroke: var(--OLED-Base1);
 }
 
 .red-ui-flow-node-label-white {
