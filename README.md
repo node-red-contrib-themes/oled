@@ -7,11 +7,6 @@
 
 [![NPM Shield][npm-shield]][npm-package]
 
-## WIP
-
-This is a work in progress. Please help us make this theme better, if you find
-something wrong open an issue [here][github-issues]. Thank you!
-
 ## About
 
 A [Node-RED][node-red] dark theme for OLED displays.
@@ -74,7 +69,6 @@ Reload the Node-RED page on the web browser.
 
 [commits-shield]: https://img.shields.io/github/commit-activity/y/node-red-contrib-themes/oled.svg
 [commits]: https://github.com/node-red-contrib-themes/oled/commits/master
-[github-issues]: https://github.com/node-red-contrib-themes/oled/issues/new
 [last-commit-shield]: https://img.shields.io/github/last-commit/node-red-contrib-themes/oled.svg
 [license]: https://github.com/node-red-contrib-themes/oled/blob/master/LICENSE
 [license-shield]: https://img.shields.io/github/license/node-red-contrib-themes/oled.svg
