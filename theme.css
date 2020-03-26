@@ -210,7 +210,7 @@
 }
 
 .red-ui-diff-list-flow-title:hover {
-  color: var(--OLED-Base1);
+  background-color: var(--OLED-Base1);
 }
 
 .red-ui-diff-list-node td,
