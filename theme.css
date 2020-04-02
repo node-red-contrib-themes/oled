@@ -1317,7 +1317,7 @@ color: #777;
 }
 
 .red-ui-projects-dialog-ssh-key-list .red-ui-projects-dialog-ssh-key-header:hover {
-  color: #222;
+  background-color: #222;
 }
 
 .red-ui-projects-edit-form form .form-row label {
@@ -3087,6 +3087,14 @@ ul.red-ui-sidebar-node-config-list .red-ui-palette-icon-container a {
 
 ul.red-ui-sidebar-node-config-list .red-ui-palette-icon-container a:hover {
   background-color: #222;
+}
+
+ul.red-ui-sidebar-node-config-list .red-ui-palette-label {
+  color: #aaa;
+}
+
+ul.red-ui-sidebar-node-config-list .red-ui-palette-node {
+  border-color: #222;
 }
 
 ul.red-ui-sidebar-node-config-list li.red-ui-palette-node-config-type {
