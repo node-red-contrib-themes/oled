@@ -511,6 +511,12 @@ color: #777;
   color: #b2b2b3;
 }
 
+.red-ui-editor .ace_tooltip,
+.red-ui-editor-dialog .ace_tooltip {
+  background-color: #0c0c0c;
+  border-color: #0c0c0c;
+}
+
 .red-ui-editor .form-row,
 .red-ui-editor-dialog .form-row {
   color: #aaa;
@@ -560,6 +566,22 @@ color: #777;
 
 .red-ui-editor {
   background-color: #0c0c0c;
+  color: #aaa;
+}
+
+.red-ui-editor #red-ui-event-log-editor .ace_marker-layer .ace_active-line,
+.red-ui-editor-dialog #red-ui-event-log-editor .ace_marker-layer .ace_active-line {
+  background-color: #0c0c0c;
+}
+
+.red-ui-editor #red-ui-event-log-editor .ace_marker-layer .ace_selection,
+.red-ui-editor-dialog #red-ui-event-log-editor .ace_marker-layer .ace_selection {
+  background-color: #ccc;
+}
+
+.red-ui-editor #red-ui-event-log-editor .ace_scroller,
+.red-ui-editor-dialog #red-ui-event-log-editor .ace_scroller {
+  background-color: #000;
   color: #aaa;
 }
 
@@ -794,6 +816,14 @@ color: #777;
   border-color: #333;
 }
 
+.red-ui-editor-subflow-env-input-type {
+  background: #000;
+}
+
+.red-ui-editor-subflow-env-input-type-placeholder {
+  color: #555;
+}
+
 .red-ui-editor-subflow-env-ui-row>div:first-child {
   color: #555;
 }
@@ -877,6 +907,16 @@ color: #777;
   background-color: #000;
 }
 
+.red-ui-flow-group-body {
+  fill: #222;
+  fill-opacity: 0.75;
+  stroke: #222;
+}
+
+.red-ui-flow-group-outline-select.red-ui-flow-group-outline-select-background {
+  stroke: #000;
+}
+
 .red-ui-flow-link-background {
   stroke: #000;
 }
@@ -934,6 +974,29 @@ color: #777;
   color: #007ab8;
 }
 
+.red-ui-flow-port-tooltip path:first-child {
+  fill: #0c0c0c;
+  stroke: #0c0c0c;
+}
+
+.red-ui-group-layout-picker {
+  background-color: #0c0c0c;
+}
+
+.red-ui-group-layout-picker-cell-text {
+  border-top-color: #777;
+  border-bottom-color: #777;
+}
+
+.red-ui-group-layout-picker-cell-text.red-ui-group-layout-text-pos- {
+  background-color: #000;
+  background-image: linear-gradient(45deg, transparent 45%, #111 45%, #111 55%, transparent 55%, transparent), linear-gradient(-45deg, transparent 45%, #111 45%, #111 55%, transparent 55%, transparent);
+}
+
+.red-ui-help .red-ui-help-info-header {
+  color: #bbb;
+}
+
 .red-ui-help dl.message-properties {
   border-color: #111;
 }
@@ -946,12 +1009,20 @@ color: #777;
   color: #9c1421;
 }
 
+.red-ui-help h1.red-ui-help-title {
+  border-bottom-color: #222;
+}
+
 .red-ui-help ol.node-ports li {
   border-color: #111;
 }
 
 .red-ui-help-info-none {
   color: #555;
+}
+
+.red-ui-help-search {
+  border-bottom-color:#111;
 }
 
 .red-ui-help-tip {
@@ -998,8 +1069,57 @@ color: #777;
   color: #777;
 }
 
+.red-ui-info-header {
+  border-bottom-color: #111;
+}
+
+.red-ui-info-outline .red-ui-info-outline-item.red-ui-info-outline-item-empty,
+.red-ui-sidebar-help-toc .red-ui-info-outline-item.red-ui-info-outline-item-empty {
+  color: #555;
+}
+
+.red-ui-info-outline .red-ui-info-outline-item.red-ui-info-outline-item-group .red-ui-search-result-node .red-ui-palette-icon-fa,
+.red-ui-sidebar-help-toc .red-ui-info-outline-item.red-ui-info-outline-item-group .red-ui-search-result-node .red-ui-palette-icon-fa {
+  color: #777;
+}
+
+.red-ui-info-outline .red-ui-info-outline-project,
+.red-ui-sidebar-help-toc .red-ui-info-outline-project {
+  border-bottom-color: #111;
+}
+
+.red-ui-info-outline .red-ui-search-result-node-label,
+.red-ui-sidebar-help-toc .red-ui-search-result-node-label {
+  color: #777;
+}
+
+.red-ui-info-outline-item-controls {
+  background-color: #000;
+}
+
+.red-ui-info-outline-item-disabled .red-ui-info-outline-item-label {
+  opacity: 0.4;
+}
+
+.red-ui-info-toolbar .red-ui-searchBox-container {
+  background: #0c0c0c;
+}
+
+.red-ui-searchBox-container a.red-ui-searchBox-opts:hover {
+  color: #999;
+  background: #222;
+}
+
 .red-ui-library-browser .red-ui-treeList-container {
   background-color: #000;
+}
+
+.red-ui-loading-bar {
+  border-color: #222;
+}
+
+.red-ui-loading-bar>span {
+  background-color: #111;
 }
 
 .red-ui-menu-dropdown .red-ui-menu-divider {
@@ -1079,6 +1199,10 @@ color: #777;
   color: #aaa;
 }
 
+.red-ui-notification-error {
+  border-color: #9c1421;
+}
+
 .red-ui-palette-category {
   border-bottom-color: #111;
 }
@@ -1152,6 +1276,28 @@ color: #777;
   border-right-color: #111;
 }
 
+.red-ui-popover {
+  background-color: #0c0c0c;
+  color: #bbb;
+  border-color: #0c0c0c;
+}
+
+.red-ui-popover a.red-ui-button:not(.primary),
+.red-ui-popover button.red-ui-button:not(.primary) {
+  border-color: #222;
+  background-color: #0c0c0c;
+}
+
+.red-ui-popover a.red-ui-button.primary,
+.red-ui-popover button.red-ui-button.primary {
+  border-color: #222;
+}
+
+.red-ui-popover a.red-ui-button.primary:not(.disabled):not(.ui-button-disabled):hover,
+.red-ui-popover button.red-ui-button.primary:not(.disabled):not(.ui-button-disabled):hover {
+  border-color: #999;
+}
+
 .red-ui-popover code {
   color: #555;
 }
@@ -1163,6 +1309,38 @@ color: #777;
 .red-ui-popover-panel {
   border-color: #333;
   background-color: #000;
+}
+
+.red-ui-popover.red-ui-popover-bottom:after {
+  border-bottom-color: #0c0c0c;
+}
+
+.red-ui-popover.red-ui-popover-bottom:before {
+  border-bottom-color: #0c0c0c;
+}
+
+.red-ui-popover.red-ui-popover-left:after {
+  border-left-color: #0c0c0c;
+}
+
+.red-ui-popover.red-ui-popover-left:before {
+  border-left-color: #0c0c0c;
+}
+
+.red-ui-popover.red-ui-popover-right:after {
+  border-right-color: #0c0c0c;
+}
+
+.red-ui-popover.red-ui-popover-right:before {
+  border-right-color: #0c0c0c;
+}
+
+.red-ui-popover.red-ui-popover-top:after {
+  border-top-color: #0c0c0c;
+}
+
+.red-ui-popover.red-ui-popover-top:before {
+  border-top-color: #0c0c0c;
 }
 
 .red-ui-projects-branch-list .red-ui-editableList .red-ui-editableList-container li {
@@ -1279,6 +1457,10 @@ color: #777;
   border-right-color: #000;
 }
 
+.red-ui-projects-dialog-project-list-entry-delete-confirm {
+  background-color: #000;
+}
+
 .red-ui-projects-dialog-project-list-entry.projects-list-entry-current i {
   color: #777;
 }
@@ -1360,6 +1542,10 @@ color: #aaa;
   color: #555;
 }
 
+.red-ui-search-result-node .red-ui-color-picker-cell-none {
+  background-image: linear-gradient(45deg, #0c0c0c 25%, transparent 25%, transparent 75%, #0c0c0c 75%, #0c0c0c), linear-gradient(45deg, #0c0c0c 25%, transparent 25%, transparent 75%, #0c0c0c 75%, #0c0c0c);
+}
+
 .red-ui-search-result-node-flow {
   color: #555;
 }
@@ -1376,6 +1562,12 @@ color: #aaa;
   color: #555;
 }
 
+.red-ui-search-result-node.red-ui-palette-icon-flow .red-ui-palette-icon-fa,
+.red-ui-search-result-node.red-ui-palette-icon-group .red-ui-palette-icon-fa,
+.red-ui-search-result-node.red-ui-palette-icon-selection .red-ui-palette-icon-fa {
+  color: #777;
+}
+
 .red-ui-search-result:hover {
   color: #aaa;
   background-color: #222;
@@ -1389,6 +1581,11 @@ color: #aaa;
 
 .red-ui-search-results-container {
   background-color: #0c0c0c;
+}
+
+.red-ui-searchBox-compact input.red-ui-searchBox-input,
+.red-ui-searchBox-compact input:focus.red-ui-searchBox-input {
+  border-color: #111;
 }
 
 .red-ui-searchBox-container .red-ui-searchBox-resultCount {
@@ -1877,10 +2074,18 @@ color: #aaa;
   color: #aaa;
 }
 
+.red-ui-treeList-label:hover .red-ui-info-outline-item-controls {
+  background-color: #222;
+}
+
 .red-ui-treeList-label:hover,
 .red-ui-treeList-label:hover .red-ui-treeList-sublabel-text {
   background-color: #222;
   color: #aaa;
+}
+
+.red-ui-treeList-label.selected .red-ui-info-outline-item-controls {
+  background-color: #101010;
 }
 
 .red-ui-treeList-label.selected,
@@ -2210,6 +2415,14 @@ html .ui-button.ui-state-disabled:active {
 
 #red-ui-library-dialog-save-browser {
   border-color: #333;
+}
+
+#red-ui-loading-progress {
+  background-color: #0c0c0c;
+}
+
+#red-ui-loading-progress>div {
+  color: #777;
 }
 
 #red-ui-navigator-canvas {
@@ -3035,6 +3248,11 @@ button.red-ui-typedInput-option-trigger.disabled>i.red-ui-typedInput-icon {
   color: #444;
 }
 
+div.red-ui-button-small.red-ui-color-picker-opacity-slider-handle {
+  border-color: #222;
+  background-color: #000;
+}
+
 label.red-ui-diff-selectbox {
   border-left-color: #111;
 }
@@ -3075,6 +3293,16 @@ table.red-ui-info-table tr.blank a:focus {
 
 table.red-ui-info-table tr.blank th {
   color: #aaa;
+}
+
+ul.red-ui-menu:not(.red-ui-menu-dropdown) li a {
+  color: #aaa;
+}
+
+ul.red-ui-menu:not(.red-ui-menu-dropdown) li a:hover,
+ul.red-ui-menu:not(.red-ui-menu-dropdown) li a:focus {
+  color: #999;
+  background-color: #222;
 }
 
 ul.red-ui-sidebar-node-config-list .red-ui-palette-icon-container {
