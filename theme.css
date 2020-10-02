@@ -2157,9 +2157,11 @@ color: #aaa;
 }
 
 .red-ui-workspace-chart-grid line {
-  shape-rendering: auto;
-  stroke: #111;
-  stroke-width: 0.5px;
+  shape-rendering: optimizeSpeed;
+  stroke: #ffffff;
+  stroke-width: 1px;
+  stroke-opacity: 0.2;
+  stroke-dasharray: 0.2;
 }
 
 .red-ui-workspace-disabled.red-ui-tab a {
