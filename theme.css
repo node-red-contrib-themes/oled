@@ -22,6 +22,10 @@
   background-color: #000;
 }
 
+.form-row .red-ui-clipboard-dialog-import-conflicts-controls label {
+  border-left-color: #111;
+}
+
 .help-key {
   border-color: #222;
   background-color: #080808;
@@ -85,12 +89,28 @@ color: #777;
   border-color: #333;
 }
 
+.red-ui-clipboard-dialog-import-conflicts-controls {
+  color: #AAA;
+}
+
+.red-ui-clipboard-dialog-import-conflicts-item-header {
+  background-color: #080808;
+}
+
+.red-ui-clipboard-dialog-import-conflicts-item-header>span:first-child {
+  color: #BBB;
+}
+
 .red-ui-clipboard-dialog-tab-clipboard textarea {
   background-color: #0c0c0c;
 }
 
 .red-ui-clipboard-dialog-tabs-content {
   background-color: #000;
+}
+
+.red-ui-clipboard-dialog-tabs-content>div.red-ui-clipboard-dialog-export-tab-library-browser {
+  border-bottom-color: #333;
 }
 
 .red-ui-clipboard-import-error pre {
@@ -1084,12 +1104,16 @@ color: #777;
 }
 
 .red-ui-info-outline .red-ui-info-outline-item.red-ui-info-outline-item-empty,
-.red-ui-sidebar-help-toc .red-ui-info-outline-item.red-ui-info-outline-item-empty {
+.red-ui-sidebar-help-toc .red-ui-info-outline-item.red-ui-info-outline-item-empty,
+#red-ui-clipboard-dialog-import-conflicts-list .red-ui-info-outline-item.red-ui-info-outline-item-empty,
+#red-ui-clipboard-dialog-export-tab-clipboard-preview .red-ui-info-outline-item.red-ui-info-outline-item-empty {
   color: #555;
 }
 
 .red-ui-info-outline .red-ui-info-outline-item.red-ui-info-outline-item-group .red-ui-search-result-node .red-ui-palette-icon-fa,
-.red-ui-sidebar-help-toc .red-ui-info-outline-item.red-ui-info-outline-item-group .red-ui-search-result-node .red-ui-palette-icon-fa {
+.red-ui-sidebar-help-toc .red-ui-info-outline-item.red-ui-info-outline-item-group .red-ui-search-result-node .red-ui-palette-icon-fa,
+#red-ui-clipboard-dialog-import-conflicts-list .red-ui-info-outline-item.red-ui-info-outline-item-group .red-ui-search-result-node .red-ui-palette-icon-fa,
+#red-ui-clipboard-dialog-export-tab-clipboard-preview .red-ui-info-outline-item.red-ui-info-outline-item-group .red-ui-search-result-node .red-ui-palette-icon-fa {
   color: #777;
 }
 
@@ -1099,7 +1123,9 @@ color: #777;
 }
 
 .red-ui-info-outline .red-ui-search-result-node-label,
-.red-ui-sidebar-help-toc .red-ui-search-result-node-label {
+.red-ui-sidebar-help-toc .red-ui-search-result-node-label,
+#red-ui-clipboard-dialog-import-conflicts-list .red-ui-search-result-node-label,
+#red-ui-clipboard-dialog-export-tab-clipboard-preview .red-ui-search-result-node-label {
   color: #777;
 }
 
@@ -1219,6 +1245,11 @@ color: #777;
 
 .red-ui-palette-content {
   background-color: #000;
+}
+
+.red-ui-palette-editor-upload {
+  background-color: #000;
+  border-bottom-color: #111;
 }
 
 .red-ui-palette-header {
