@@ -2166,6 +2166,11 @@ color: #aaa;
   border-color: #222;
 }
 
+.red-ui-typedInput-container[disabled] input,
+.red-ui-typedInput-container[disabled] button {
+  background: #0f0f0f;
+}
+
 .red-ui-typedInput-options {
   box-shadow: 1px 1px 4px rgba(80, 80, 80, 0.2);
   border-color: #333;
