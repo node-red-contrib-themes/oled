@@ -187,15 +187,15 @@
 * Grip on separators
 */
 .red-ui-panels-separator {
-  border-top-color: #111;
-  border-bottom-color: #111;
+  border-top-color: #2A2A2A;
+  border-bottom-color: #2A2A2A;
   background: #0c0c0c url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAFCAYAAAAHQL+kAAAANUlEQVQ4T2NkGCaAsaam5v+vX7+GtHeYmZkZGMvKyv7//v171CODIQTAMcLAwMA0GBxDqRsAvGoQKD8bYlkAAAAASUVORK5CYII=") no-repeat 50% 50%;
 }
 
 .red-ui-panels.red-ui-panels-horizontal>.red-ui-panels-separator {
   background: #0c0c0c url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAyCAYAAACUEBHwAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAABaADAAQAAAABAAAAMgAAAABsq3hnAAAAHGlET1QAAAACAAAAAAAAABkAAAAoAAAAGQAAABkAAACY3q2wGgAAAGRJREFUOBFiiIyMFFmzZs1/EF67du1/BhAIDQ0VXbVq1X8QhgsGBgaKYQi6ublhCjo7O4tjqHR3d5fEELS1tcUUdHV1lcJQ6eTkJI0haG1tTaRKrNqxChJvJvEqsVpEvCC9LAIAAAD//6r79CQAAABXSURBVGNwcnKSXrVq1X8QXrt27X8GEBjJgtbW1lLUDhBXV1dMM7EKuru7S2LY7uXlJYEh6OfnJ44h6ObmJoYh6OvrK4IhGBgYKAyK7zVr1vzfsGEDON4BJ13u87Ub/LQAAAAASUVORK5CYII=") no-repeat 50% 50%;
-  border-left-color: #111;
-  border-right-color: #111;
+  border-left-color: #2A2A2A;
+  border-right-color: #2A2A2A;
 }
 
 #red-ui-sidebar-separator {
@@ -204,7 +204,7 @@
 
 .red-ui-tray-resize-handle {
   background: #0c0c0c url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAyCAYAAACUEBHwAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAABaADAAQAAAABAAAAMgAAAABsq3hnAAAAHGlET1QAAAACAAAAAAAAABkAAAAoAAAAGQAAABkAAACY3q2wGgAAAGRJREFUOBFiiIyMFFmzZs1/EF67du1/BhAIDQ0VXbVq1X8QhgsGBgaKYQi6ublhCjo7O4tjqHR3d5fEELS1tcUUdHV1lcJQ6eTkJI0haG1tTaRKrNqxChJvJvEqsVpEvCC9LAIAAAD//6r79CQAAABXSURBVGNwcnKSXrVq1X8QXrt27X8GEBjJgtbW1lLUDhBXV1dMM7EKuru7S2LY7uXlJYEh6OfnJ44h6ObmJoYh6OvrK4IhGBgYKAyK7zVr1vzfsGEDON4BJ13u87Ub/LQAAAAASUVORK5CYII=") no-repeat 50% 50%;
-  border-left-color: #333;
+  border-left-color: #2A2A2A;
 }
 
 /*
@@ -275,5 +275,5 @@ ul.red-ui-sidebar-node-config-list .red-ui-palette-label {
 }
 
 ul.red-ui-sidebar-node-config-list .red-ui-palette-node {
-  border-color: #333;
+  border-color: #2A2A2A;
 }
