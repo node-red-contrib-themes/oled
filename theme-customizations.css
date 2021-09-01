@@ -226,6 +226,9 @@ button.red-ui-typedInput-option-trigger .red-ui-typedInput-option-label img {
 /*
 * SVG images
 */
+.red-ui-tabs ul li.active img.red-ui-tab-icon {
+  filter: brightness(0) saturate(100%) invert(56%) sepia(97%) saturate(17%) hue-rotate(13deg) brightness(99%) contrast(95%);
+}
 
 /*
 * jQuery ui widgets
