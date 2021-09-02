@@ -1,6 +1,6 @@
 {
   "name": "@node-red-contrib-themes/oled",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "A Node-RED dark theme for OLED displays",
   "repository": {
     "type": "git",
