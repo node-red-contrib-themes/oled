@@ -1,4 +1,4 @@
-# OLED Node-RED theme
+# Node-RED Contrib Theme: OLED
 
 ![Project Maintenance][maintenance-shield]
 [![License][license-shield]](LICENSE)
