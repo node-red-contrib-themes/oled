@@ -28,7 +28,7 @@ $secondary-background-disabled: #060606;//#fafa0;
 
 $tertiary-background:  #080808;//#f0f;
 
-$shadow: rgba(80, 80, 80, 0.2);
+$shadow: rgba(0, 0, 0, 0.2);
 
 // Main body text
 $primary-text-color: #aaa;//#0f0;
@@ -136,7 +136,7 @@ $workspace-button-color-primary: #eee;
 $workspace-button-background-primary: #AD1625;
 $workspace-button-background-primary-hover: #6E0A1E;
 
-$workspace-button-color-focus-outline: $form-input-border-color;
+$workspace-button-color-focus-outline: $form-input-focus-color;
 
 $shade-color: rgba(160,160,160,0.5);
 
@@ -269,9 +269,9 @@ $dnd-background: rgba(0,0,0,0.3);
 $dnd-color: #fff;
 
 $notification-border-default: #325C80;
-$notification-border-success: #4B8400;
-$notification-border-warning: #D74108;
-$notification-border-error: #AD1625;
+$notification-border-success: $border-color-success;
+$notification-border-warning: $border-color-warning;
+$notification-border-error: $border-color-error;
 
 $debug-message-background: $secondary-background;
 $debug-message-background-hover: $secondary-background-selected;
